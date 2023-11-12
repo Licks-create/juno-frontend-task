@@ -329,7 +329,7 @@ const Monitoring = () => {
                             {data.email}
                           </span>
                         </div>
-                        <OpenInNewIcon style={{ color: "blue" }} />
+                        <OpenInNewIcon style={{ color: "#144cc5",fontSize:"18px" }} />
                       </td>
 
                       <td style={{ textAlign: "center" }}>
