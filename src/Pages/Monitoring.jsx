@@ -7,7 +7,7 @@ import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import CircleIcon from "@mui/icons-material/Circle";
 import HighlightOffIcon from "@mui/icons-material/HighlightOff";
 import { db as demoData } from "../data";
-import "./Monitoring.css";
+import "../styles/Monitoring.css";
 import CloseIcon from "@mui/icons-material/Close";
 const Monitoring = () => {
   const flags = [
@@ -306,7 +306,7 @@ const Monitoring = () => {
                         style={{
                           display: "flex",
                           justifyContent: "space-between",
-                          alignItems: "baseline",
+                          alignItems: "center",
                           padding: "1rem",
                         }}
                       >

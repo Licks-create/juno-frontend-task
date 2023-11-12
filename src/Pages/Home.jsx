@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
-import "./Home.css";
+import "../styles/Home.css";
 import { useEffect } from "react";
 const Home = () => {
   const [activeComp, setActiveComp] = useState("Monitoring");
